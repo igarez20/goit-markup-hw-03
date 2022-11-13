@@ -32,6 +32,13 @@ body {
   letter-spacing: 0.03em;
 }
 
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid tomato;
+}
+
 .section .link {
   text-decoration: none;
 }
@@ -61,10 +68,12 @@ body {
 
 /* --------------------ВЕРХНЯ ЛІНІЯ-------------------- */
 .page-header {
+  color: var(--primary-text-color);
+  background-color: #ccc;
+
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--primary-text-color);
 }
 
 .logo {
@@ -81,7 +90,19 @@ body {
 }
 
 /*--------------------НАВІГАЦІЯ САЙТУ--------------------  */
+.site-nav {
+  display: flex;
+}
+
+.site-nav .item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .site-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--primary-text-color);
 
   font-weight: 500;
@@ -95,6 +116,14 @@ body {
 
 .site-nav .link.current {
   color: var(--accent-color);
+}
+
+.feedback-nav {
+  display: flex;
+}
+
+.feedback-nav .item:not(:last-child) {
+  margin-right: 50px;
 }
 
 /*--------------------ЗВОРОТНІЙ ЗВ'ЯЗОК--------------------  */
