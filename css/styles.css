@@ -68,6 +68,8 @@ body {
 
 /* --------------------ВЕРХНЯ ЛІНІЯ-------------------- */
 .page-header {
+  display: flex;
+
   color: var(--primary-text-color);
   background-color: #ccc;
 
