@@ -36,7 +36,8 @@ body {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
-
+  padding-left: 15px;
+  padding-right: 15px;
   outline: 2px solid tomato;
 }
 
@@ -45,6 +46,8 @@ body {
 }
 
 .list {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 
@@ -106,6 +109,7 @@ body {
 
 .site-nav {
   display: flex;
+  margin-left: 95px;
 }
 
 .site-nav .item:not(:last-child) {
@@ -134,6 +138,7 @@ body {
 
 .feedback-nav {
   display: flex;
+  margin-left: auto;
 }
 
 .feedback-nav .item:not(:last-child) {
