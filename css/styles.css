@@ -52,6 +52,11 @@ body {
 }
 
 .btn {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  min-width: 73px;
+
   background-color: var(--btn-bg-color);
 
   font-family: inherit;
@@ -163,9 +168,17 @@ body {
 /*--------------------ШАПКА--------------------  */
 .hero {
   background-color: var(--secondary-bg-color);
+  text-align: center;
 }
 
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 700px;
+  padding-top: 200px;
+
   color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;
@@ -175,6 +188,9 @@ body {
 }
 
 .hero-button {
+  margin-bottom: 200px;
+  padding: 10px 32px;
+
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 
