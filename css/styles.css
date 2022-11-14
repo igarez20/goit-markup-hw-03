@@ -92,6 +92,14 @@ body {
 }
 
 /*--------------------НАВІГАЦІЯ САЙТУ--------------------  */
+.main-nav {
+  display: flex;
+}
+
+.header-nav {
+  display: flex;
+}
+
 .site-nav {
   display: flex;
 }
