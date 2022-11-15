@@ -48,6 +48,7 @@ body {
 .list {
   padding: 0;
   margin: 0;
+
   list-style: none;
 }
 
@@ -167,6 +168,8 @@ body {
 
 /*--------------------ШАПКА--------------------  */
 .hero {
+  margin-bottom: 95px;
+
   background-color: var(--secondary-bg-color);
   text-align: center;
 }
@@ -207,6 +210,11 @@ body {
 .benefits {
   background-color: var(--secondary-white-color);
 }
+
+.benefits-title {
+  margin-top: 0;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -218,15 +226,30 @@ body {
   overflow: hidden;
 }
 
+.benefits-list {
+  display: flex;
+  justify-content: space-between;
+}
+
 .benefits-item {
+  margin-top: 0;
+  margin-bottom: 10px;
+
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
 }
 
 .benefits-text {
+  margin-top: 0;
+  margin-bottom: 0;
+
   color: var(--secondary-text-color);
   line-height: 1.71;
+}
+
+.benefits .container {
+  margin-bottom: 95px;
 }
 
 /*--------------------ЧИМ МИ ЗАЙМАЄМОСЯ?--------------------  */
@@ -234,12 +257,42 @@ body {
   background-color: var(secondary-white-color);
 }
 
+.work-title {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.work-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.work .container {
+  margin-bottom: 95px;
+}
+
 /*--------------------НАША КОМАНДА--------------------  */
 .team {
+  padding-top: 95px;
+  padding-bottom: 95px;
+
   background-color: var(--team-bg-color);
 }
 
+.team-title {
+  margin-top: 95;
+  margin-bottom: 0;
+}
+
+.team-list {
+  display: flex;
+  justify-content: space-between;
+}
+
 .team-member {
+  margin-top: 30px;
+  margin-bottom: 10px;
+
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 16px;
@@ -258,8 +311,19 @@ body {
 .footer {
   background-color: var(--secondary-bg-color);
 }
+
+.footer .container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .footer > .footer-logo {
   color: var(--primary-white-color);
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 20px;
 }
 
 /*--------------------КОНТАКТИ--------------------  */
