@@ -41,6 +41,15 @@ body {
   outline: 2px solid tomato;
 }
 
+.hero,
+.benefits,
+.work,
+.team,
+.examples {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .section .link {
   text-decoration: none;
 }
@@ -168,8 +177,6 @@ body {
 
 /*--------------------ШАПКА--------------------  */
 .hero {
-  margin-bottom: 95px;
-
   background-color: var(--secondary-bg-color);
   text-align: center;
 }
@@ -249,7 +256,6 @@ body {
 }
 
 .benefits .container {
-  margin-bottom: 95px;
 }
 
 /*--------------------ЧИМ МИ ЗАЙМАЄМОСЯ?--------------------  */
@@ -268,19 +274,15 @@ body {
 }
 
 .work .container {
-  margin-bottom: 95px;
 }
 
 /*--------------------НАША КОМАНДА--------------------  */
 .team {
-  padding-top: 95px;
-  padding-bottom: 95px;
-
   background-color: var(--team-bg-color);
 }
 
 .team-title {
-  margin-top: 95;
+  margin-top: 0;
   margin-bottom: 0;
 }
 
@@ -350,7 +352,6 @@ body {
 
 /*--------------------ПОРТФОЛІО--------------------  */
 .examples .container {
-  margin-top: 95px;
 }
 
 .examples-item:not(:first-child) {
@@ -417,5 +418,4 @@ body {
 }
 
 .portfolio-footer .container {
-  margin-top: 95px;
 }
