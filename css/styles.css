@@ -41,16 +41,12 @@ body {
   padding-right: 15px;
 }
 
-.hero,
-.benefits,
-.work,
-.team,
-.examples {
+.section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.section .link {
+.link {
   text-decoration: none;
 }
 
@@ -177,6 +173,9 @@ body {
 
 /*--------------------ШАПКА--------------------  */
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+
   background-color: var(--secondary-bg-color);
   text-align: center;
 }
@@ -187,7 +186,6 @@ body {
   margin-left: auto;
   margin-right: auto;
   max-width: 700px;
-  padding-top: 200px;
 
   color: var(--primary-white-color);
   font-weight: 900;
@@ -198,7 +196,6 @@ body {
 }
 
 .hero-button {
-  margin-bottom: 200px;
   padding: 10px 32px;
 
   background-color: var(--accent-color);
@@ -214,10 +211,6 @@ body {
 }
 
 /*--------------------НАШІ ПЕРЕВАГИ--------------------  */
-.benefits {
-  background-color: var(--secondary-white-color);
-}
-
 .benefits-title {
   margin-top: 0;
 }
@@ -235,7 +228,7 @@ body {
 
 .benefits-list {
   display: flex;
-  justify-content: space-between;
+  gap: 30px;
 }
 
 .benefits-item {
@@ -243,6 +236,7 @@ body {
   margin-bottom: 10px;
 
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
@@ -260,20 +254,22 @@ body {
 
 /*--------------------ЧИМ МИ ЗАЙМАЄМОСЯ?--------------------  */
 .work {
-  background-color: var(secondary-white-color);
+  padding-top: 0;
 }
 
 .work-title {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 50px;
 }
 
 .work-list {
   display: flex;
-  justify-content: space-between;
+  gap: 30px;
 }
 
-.work .container {
+.work-card {
+  display: block;
+  min-width: 100%;
 }
 
 /*--------------------НАША КОМАНДА--------------------  */
@@ -283,17 +279,24 @@ body {
 
 .team-title {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 50px;
 }
 
 .team-list {
   display: flex;
-  justify-content: space-between;
+  gap: 30px;
+}
+
+.team-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  background-color: var(--primary-white-color);
 }
 
 .team-member {
-  margin-top: 30px;
-  margin-bottom: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 
   color: var(--primary-text-color);
   font-weight: 500;
