@@ -39,7 +39,6 @@ body {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid tomato;
 }
 
 .hero,
@@ -93,7 +92,6 @@ body {
   border-bottom: 1px solid var(--header-border-color);
 
   color: var(--primary-text-color);
-  background-color: #ccc;
 
   font-weight: 500;
   line-height: 1.14;
