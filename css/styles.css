@@ -294,6 +294,10 @@ body {
   background-color: var(--primary-white-color);
 }
 
+.team-foto {
+  display: block;
+}
+
 .team-member {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -322,13 +326,11 @@ body {
   padding-bottom: 60px;
 }
 
-.footer > .footer-logo {
-  color: var(--primary-white-color);
-}
-
 .footer-logo {
   display: inline-block;
   margin-bottom: 20px;
+
+  color: var(--primary-white-color);
 }
 
 /*--------------------КОНТАКТИ--------------------  */
